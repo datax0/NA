@@ -16,7 +16,7 @@ namespace NA.Remittance
 	{
 		[Action ("done:")]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		partial void done (UIBarButtonItem sender);
+		partial void done (MonoTouch.UIKit.UIBarButtonItem sender);
 
 		void ReleaseDesignerOutlets ()
 		{

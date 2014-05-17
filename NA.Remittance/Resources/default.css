@@ -1,0 +1,142 @@
+﻿view {
+  background-color: #2F4C55
+}
+/*
+ .header-bar {
+  background-color: #288de3;
+}
+ 
+.header-title {
+  background-color: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Open Sans";
+  font-weight: light;
+}
+ 
+.header-button {
+  background-color: none;
+  color: white;
+  font-family: "Open Sans";
+}
+
+ navigation-bar {
+    color: white;
+    background-color: #288de3;
+}
+ 
+tab-bar {
+    color: #288de3;
+    selected-color: white;
+    background-color: #288de3;
+}
+ 
+tab-bar-item {
+    color: white;
+    font-family: "Open Sans";
+    font-weight: semibold;
+    font-size: 12;
+}
+ */
+/*
+#buttonLogin {
+  font-family: arial;
+  color: #FFFFFF !important;
+  font-size: 14px;
+  text-shadow: 1px 1px 2px #FFFFFF;
+  box-shadow: 1px 1px 1px #BEE2F9;
+  padding: 8px 25px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: 2px solid #608A99;
+  background: #63B8EE;
+  background: linear-gradient(top,  #2F4C55,  #7899A4);
+  background: -ms-linear-gradient(top,  #2F4C55,  #7899A4);
+  background: -webkit-gradient(linear, left top, left bottom, from(#2F4C55), to(#7899A4));
+  background: -moz-linear-gradient(top,  #2F4C55,  #7899A4);
+}
+#buttonLogin:hover {
+  color: #FFFFFF !important;
+  background: #468CCF;
+  background: linear-gradient(top,  #7899A4,  #2F4C55);
+  background: -ms-linear-gradient(top,  #7899A4,  #2F4C55);
+  background: -webkit-gradient(linear, left top, left bottom, from(#7899A4), to(#2F4C55));
+  background: -moz-linear-gradient(top,  #7899A4,  #2F4C55);
+}
+  */
+  #buttonNormal {
+      border-radius    : 15px;
+      font-family      : "American Typewriter";
+      font-size        : 13px;
+      font-weight      : bold;
+      text-transform   : uppercase;
+      letter-spacing   : 0.75px;
+      color            : #ffffff;
+      /*background-color : #008ed4;*/
+      background-color : #FC0F0B;
+    }
+
+  #buttonLogin {
+      color            : #ffffff;
+      /* background-color : linear-gradient(#FC0F0B, #608A99);*/
+      background-color: linear-gradient(top,  #2F4C55,  #7899A4);
+      border-width     : 1px;
+      /*border-color     : #84a254;*/
+  	  border: 2px solid #608A99;
+      border-style     : solid;
+      border-radius    : 10px;
+      font-size        : 13px;
+    }
+   #buttonSignUp {
+      color            : #ffffff;
+      background-color: linear-gradient(left,  #7899A4 , #2F4C55);
+      border-width     : 1px;
+  	  border: 2px solid #608A99;
+      border-style     : solid;
+      border-radius    : 10px;
+      font-size        : 13px;
+    }
+/*
+  #buttonSignUp {
+      color            : #ffffff;
+      background-color : #008ed4;
+      border-width     : 1px;
+      border-color     : #ffffff;
+      border-style     : solid;
+      border-radius    : 10px;
+      font-size        : 13px;
+    }
+/*
+ * Forms
+ * --------------------------------
+ */
+/* Text fields */
+.text-field:normal {
+  color: #b0b1b4;
+  -ios-border-style: none;
+  background-color: linear-gradient(rgba(255, 255, 255, 0) 98%, #53555a 99%);
+  /* Note: to achieve a bottom border, which is not currently supported */
+  font-family: "Avenir";
+  font-size: 14pt;
+  padding: 2pt 5pt; }
+
+.text-field:highlighted {
+  background-color: linear-gradient(rgba(255, 255, 255, 0) 98%, #0096d7 99%); }
+
+.text-field.large {
+  font-size: 18pt; }
+
+.text-field.small {
+  font-size: 12pt; }
+
+.text-field.success,
+.text-field.success:highlighted {
+  background-color: linear-gradient(rgba(255, 255, 255, 0) 98%, #00d705 99%); }
+
+.text-field.warning,
+.text-field.warning:highlighted {
+  background-color: linear-gradient(rgba(255, 255, 255, 0) 98%, #d7d400 99%); }
+
+.text-field.error,
+.text-field.error:highlighted {
+  background-color: linear-gradient(rgba(255, 255, 255, 0) 98%, #d70000 99%); }
